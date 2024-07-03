@@ -1,0 +1,17 @@
+.quest-container {
+    background-color: rgb(148, 74, 218);
+    max-width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 0 25px;
+}
+
+.quest-container > span {
+    text-align: center;
+}
