@@ -23,8 +23,8 @@ export class HomeComponent implements OnInit {
   notFinished:boolean = true
 
   soundClick = new Audio('assets/audios/click-151673.mp3')
-  heroWinner = new Audio('assets/audios/brass-fanfare-with-timpani-and-winchimes-reverberated-146260.mp3')
-  villainWinner = new Audio('assets/audios/oldserial_suspensefx01-108768.mp3')
+  playerWinner = new Audio('assets/audios/brass-fanfare-with-timpani-and-winchimes-reverberated-146260.mp3')
+  playerLooser = new Audio('assets/audios/oldserial_suspensefx01-108768.mp3')
 
   constructor() { }
 
@@ -74,9 +74,9 @@ export class HomeComponent implements OnInit {
 
     //Áudios a parte:
     if(result == 'A'){
-      this.villainWinner.play()
+      this.playerWinner.play()
     }else if(result == 'B'){
-      this.heroWinner.play()
+      this.playerLooser.play()
     }
 
     return result
