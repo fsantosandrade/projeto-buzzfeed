@@ -13,6 +13,7 @@
 
 .resp-container > span {
     color: white;   
+    text-align: center;
 }
 
 .resp-container > span.text {
