@@ -48,36 +48,37 @@ export class HomeComponent implements OnInit {
     this.soundClick.play()
   }
 
-  nextStep() {
+  async nextStep() {
     this.questionIndex++
 
     if(this.questionMaxIndex > this.questionIndex) {
       this.questionSelected = this.questions[this.questionIndex].question
       this.options = this.questions[this.questionIndex].options
     }else {
+      const finalAnswer:string = await this.winner(this.answers)
       this.finished = true
       this.notFinished = false
-      this.answerSelected = this.winner()
+      this.answerSelected = data.results[finalAnswer as keyof typeof data.results]
     }
   }
 
-  winner() {
-    let villain = 0
-    let hero = 0
-    this.answers.forEach((choose) => {
-      if(choose == 'A') {
-        villain++
+  async winner( answers:string[]) {
+    const result = answers.reduce((previus, current, i, arr) => {
+      if(arr.filter(item => item === previus).length > 
+      arr.filter(item => item === current).length) {
+        return previus
       }else {
-        hero++
+        return current
       }
     })
 
-    if(villain > hero){
+    //Áudios a parte:
+    if(result == 'A'){
       this.villainWinner.play()
-      return data.results.A
-    }else {
+    }else if(result == 'B'){
       this.heroWinner.play()
-      return data.results.B
     }
+
+    return result
   }
 }
