@@ -1,120 +1,55 @@
 {
-    "title":"Você conhece de verdade seu namorado ?",
+    "title":"Você seria um heroi ou vilão ?",
     "questions":[
       {
         "id":1,
-        "question": "Qual é uma das minhas cores favoritas ?",
+        "question": "Qual super poder você escolheria ?",
         "options":[
-          {"id": 1, "name":"Azul", "alias":"B"},
-          {"id": 2, "name":"Vermelho", "alias":"A"},
-          {"id": 3, "name":"Amarelo", "alias":"B"},
-          {"id": 4, "name":"Laranja", "alias":"B"},
-          {"id": 5, "name":"Branco", "alias":"B"}
+          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
+          {"id": 2, "name":"Voar", "alias":"B"},
+          {"id": 3, "name":"Explodir coisas", "alias":"A"},
+          {"id": 4, "name":"Curar feridas", "alias":"B"},
+          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
         ]
       },
       {
         "id":2,
-        "question": "Qual a minha comida preferida ?",
+        "question": "Quem você salvaria primeiro ?",
         "options":[
-          {"id": 1, "name":"Lasanha", "alias":"B"},
-          {"id": 2, "name":"Bolo", "alias":"B"},
-          {"id": 3, "name":"Hambúrguer", "alias":"B"},
-          {"id": 4, "name":"Strogonoff", "alias":"A"},
-          {"id": 5, "name":"Pizza", "alias":"B"}
+          {"id": 1, "name":"Crianças", "alias":"A"},
+          {"id": 2, "name":"Idosos", "alias":"A"},
+          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
         ]
       },
       {
         "id":3,
-        "question": "Qual a minha série favorita ?",
+        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
         "options":[
-          {"id": 1, "name":"Stranger Things", "alias":"A"},
-          {"id": 2, "name":"Riverdale", "alias":"B"},
-          {"id": 3, "name":"Game of Thrones", "alias":"B"},
-          {"id": 4, "name":"The Last of Us", "alias":"B"},
-          {"id": 5, "name":"The 100", "alias":"B"}
+          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
+          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
+          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
+          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
         ]
       },
       {
         "id":4,
-        "question": "Se eu pudesse escolher só um entre: Viajar o mundo ou ter um estoque infinito de Coca-Cola pra sempre. Qual eu escolheria ?",
+        "question": "Qual o seu maior foco ?",
         "options":[
-          {"id": 1, "name":"Viajar o Mundo", "alias":"B"},
-          {"id": 2, "name":"Estoque de Coca-Cola", "alias":"A"}
+          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
+          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
         ]
       },
       {
         "id":5,
-        "question": "Qual a minha parte preferida do seu corpo ?",
+        "question": "Qual o seu apelido de super ser ?",
         "options":[
-          {"id": 1, "name":"Peito", "alias":"B"},
-          {"id": 2, "name":"Sorriso", "alias":"B"},
-          {"id": 3, "name":"Bunda", "alias":"B"},
-          {"id": 4, "name":"Cabelo", "alias":"B"},
-          {"id": 5, "name":"TUDOOOOOOOO...", "alias":"A"}
-        ]
-      },
-      {
-        "id":6,
-        "question": "Qual meu tipo ambiente favorito ?",
-        "options":[
-          {"id": 1, "name":"Festa", "alias":"B"},
-          {"id": 2, "name":"Casa", "alias":"A"},
-          {"id": 3, "name":"Shopping", "alias":"B"},
-          {"id": 4, "name":"Piscina", "alias":"B"},
-          {"id": 5, "name":"Restaurante", "alias":"B"}
-        ]
-      },
-      {
-        "id":7,
-        "question": "Qual minha estação favorita ?",
-        "options":[
-          {"id": 1, "name":"Primavera", "alias":"B"},
-          {"id": 2, "name":"Verão", "alias":"A"},
-          {"id": 3, "name":"Outono", "alias":"B"},
-          {"id": 4, "name":"Inverno", "alias":"B"},
-          {"id": 5, "name":"Nenhuma", "alias":"B"}
-        ]
-      },
-      {
-        "id":8,
-        "question": "Desses animais, qual eu nunca tive ?",
-        "options":[
-          {"id": 1, "name":"Galo", "alias":"B"},
-          {"id": 2, "name":"Periquito", "alias":"B"},
-          {"id": 3, "name":"Gato", "alias":"B"},
-          {"id": 4, "name":"Jabuti", "alias":"B"},
-          {"id": 5, "name":"Preá", "alias":"A"},
-          {"id": 6, "name":"Porquinho da Índia", "alias":"B"},
-          {"id": 6, "name":"Coelho", "alias":"B"}
-        ]
-      },
-      {
-        "id":9,
-        "question": "Qual seria a minha casa dos sonhos ?",
-        "options":[
-          {"id": 1, "name":"Casa perto da praia", "alias":"B"},
-          {"id": 2, "name":"Casa em outro país", "alias":"B"},
-          {"id": 3, "name":"Apartamento", "alias":"B"},
-          {"id": 4, "name":"Casa simples", "alias":"B"},
-          {"id": 5, "name":"Casa com mais de um andar", "alias":"B"},
-          {"id": 6, "name":"Casa grande", "alias":"A"}
-        ]
-      },
-      {
-        "id":10,
-        "question": "Qual o tamanho do meu amor por você ?",
-        "options":[
-          {"id": 1, "name":"O mundo todo", "alias":"B"},
-          {"id": 2, "name":"O universo todo", "alias":"B"},
-          {"id": 3, "name":"Infinito", "alias":"B"},
-          {"id": 4, "name":"Infinito + 1", "alias":"B"},
-          {"id": 5, "name":"Infinito + Infinito", "alias":"B"},
-          {"id": 6, "name":"Todas as anteriores e mais um pouco", "alias":"A"}
+          {"id": 1, "name":"O Terrivel", "alias":"A"},
+          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
         ]
       }
     ],
     "results":{
-      "A": "VOCÊ ME CONHECE MUITO AMOR! Sabia que ia conseguir 😎❤️ PRÊMIO: UM VALE DATE A SUA ESCOLHA! (Sem data de vencimento)",
-      "B": "NÃO CHEGOU NEM PERTO! Você me odeia amor?😭 PUNIÇÃO: TEM QUE VER UM FILME DE TERROR QUE EU ESCOLHER COMIGO! 😈😈😈"
+      "A": "Você muito provavelmente seria um super vilão!",
+      "B": "Você muito provavelmente seria um super Herói!"
     }
   }

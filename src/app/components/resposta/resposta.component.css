@@ -1,5 +1,5 @@
 .resp-container {
-    background-color: white;
+    background-color: rgba(79, 34, 122, 0.829);
     width: 80vw;
     display: flex;
     flex-flow: column nowrap;
@@ -12,7 +12,7 @@
 }
 
 .resp-container > span {
-    color: black;   
+    color: white;   
     text-align: center;
 }
 
